@@ -1,0 +1,16 @@
+{
+  "name": "bflower",
+  "version": "1.0.0",
+  "description": "b-flower's developer test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrien Rousselet",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2"
+  }
+}

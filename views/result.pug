@@ -1,0 +1,17 @@
+html
+	head
+		title bflower test
+
+	body
+		div 
+			p
+				b Drone's job is terminated
+			p To go from node
+				= ' ' + start + ' to node '
+				= end
+			p Visited nodes are 
+				each node in visitedNodes
+					= node + ', '
+			
+			p The distance is 
+				= distance
